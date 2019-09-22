@@ -6,6 +6,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="javapoz20-prog1" />
         <module name="javapoz20prog1" />
       </profile>
     </annotationProcessing>

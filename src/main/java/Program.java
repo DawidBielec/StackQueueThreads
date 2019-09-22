@@ -19,10 +19,10 @@ public class Program {
         loops.drawX(6);
 
         // Arrays
-//        ArraysExercise arrays = new ArraysExercise();
-//        arrays.InitializeAndFillArray(10);
-//        arrays.PrintArray();
-//        arrays.InitializeAndFillArrayWithPreviousMemberSum(10);
-//        arrays.PrintArray();
+        ArraysExercise arrays = new ArraysExercise();
+        arrays.InitializeAndFillArray(10);
+        arrays.InitializeAndFillArrayWithPreviousMemberSum(10);
+        arrays.InitializeAndFillArrayWithRandomNumbers(10, 15, 99);
+        arrays.PrintArrayValues();
     }
 }
