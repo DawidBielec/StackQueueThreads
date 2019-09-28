@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a4cb6a48-ddc4-4992-8dfd-fba069602b80" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Zad5PseudoCodeAlgorithms/AlgorithmsFromPseudoCode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Zad5PseudoCodeAlgorithms/PseudoKod_algorytmy.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Zad6Interfaces/StringCustom.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Zad7Arrays/ArrayTasks.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Program.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Zad5PseudoCodeAlgorithms/AlgorithmsFromPseudoCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Zad5PseudoCodeAlgorithms/AlgorithmsFromPseudoCode.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -18,11 +17,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/Program.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="56" column="98" selection-start-line="56" selection-start-column="98" selection-end-line="56" selection-end-column="98" />
+            <state relative-caret-position="286">
+              <caret line="74" column="50" selection-start-line="74" selection-start-column="50" selection-end-line="74" selection-end-column="50" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -33,29 +32,51 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Zad5PseudoCodeAlgorithms/AlgorithmsFromPseudoCode.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="276">
-              <caret line="6" column="3" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
+            <state relative-caret-position="190">
+              <caret line="48" column="5" lean-forward="true" selection-start-line="20" selection-start-column="4" selection-end-line="48" selection-end-column="5" />
               <folding>
-                <element signature="e#114#115#0" expanded="true" />
-                <element signature="e#142#143#0" expanded="true" />
+                <element signature="e#116#117#0" expanded="true" />
+                <element signature="e#144#145#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Zad7Arrays/ArrayTasks.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" column="20" lean-forward="true" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Zad6Interfaces/StringCustom.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="26" column="9" lean-forward="true" selection-start-line="26" selection-start-column="9" selection-end-line="26" selection-end-column="9" />
+            <state relative-caret-position="176">
+              <caret line="8" column="5" lean-forward="true" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
               <folding>
-                <element signature="e#160#161#0" expanded="true" />
-                <element signature="e#184#185#0" expanded="true" />
+                <element signature="e#176#177#0" expanded="true" />
+                <element signature="e#207#208#0" expanded="true" />
                 <element signature="e#137#138#0" expanded="true" />
                 <element signature="e#161#162#0" expanded="true" />
-                <element signature="e#198#199#0" expanded="true" />
-                <element signature="e#222#223#0" expanded="true" />
+                <element signature="e#310#311#0" expanded="true" />
+                <element signature="e#358#359#0" expanded="true" />
+                <element signature="e#421#422#0" expanded="true" />
+                <element signature="e#481#482#0" expanded="true" />
+                <element signature="e#1410#1411#0" expanded="true" />
+                <element signature="e#1435#1436#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk-11.0.2/lib/src.zip!/java.base/java/lang/StringBuilder.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="139">
+              <caret line="123" selection-start-line="123" selection-end-line="123" />
             </state>
           </provider>
         </entry>
@@ -96,8 +117,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Zad4Person/PersonService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-561">
-              <caret line="12" column="43" selection-start-line="12" selection-start-column="43" selection-end-line="12" selection-end-column="43" />
+            <state relative-caret-position="1054">
+              <caret line="62" lean-forward="true" selection-start-line="62" selection-end-line="62" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -108,7 +129,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Zad3Arrays/ArraysExercise.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="686">
+            <state relative-caret-position="1309">
               <caret line="77" column="29" selection-start-line="77" selection-start-column="29" selection-end-line="77" selection-end-column="29" />
             </state>
           </provider>
@@ -157,9 +178,10 @@
         <option value="$PROJECT_DIR$/src/main/java/Zad4Person/PersonServiceAbstract.java" />
         <option value="$PROJECT_DIR$/src/main/java/Zad4Person/Osoba.java" />
         <option value="$PROJECT_DIR$/src/main/java/Zad4Person/PersonService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Zad5PseudoCodeAlgorithms/AlgorithmsFromPseudoCode.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Program.java" />
         <option value="$PROJECT_DIR$/src/main/java/Zad6Interfaces/StringCustom.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Zad5PseudoCodeAlgorithms/AlgorithmsFromPseudoCode.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Zad7Arrays/ArrayTasks.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Program.java" />
       </list>
     </option>
   </component>
@@ -215,6 +237,22 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="Zad1Engine" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="javapoz20-prog1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="javapoz20-prog1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="Zad2Loops" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="javapoz20-prog1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="javapoz20-prog1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="Zad3Arrays" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -241,6 +279,14 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="Zad6Interfaces" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="javapoz20-prog1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="javapoz20-prog1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="Zad7Arrays" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -250,7 +296,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1569663085874" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1569673581302" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -305,18 +351,18 @@
       <workItem from="1569136625473" duration="5754000" />
       <workItem from="1569142601056" duration="174000" />
       <workItem from="1569143858914" duration="11940000" />
-      <workItem from="1569656899845" duration="5391000" />
+      <workItem from="1569656899845" duration="11449000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23259000" />
+    <option name="totallyTimeSpent" value="29317000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17397882" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19364598" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -325,7 +371,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.47806355" visible="true" weight="0.27659574" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.47806355" visible="true" weight="0.31587562" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49924356" weight="0.39934534" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -411,34 +457,10 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/Zad4Person/Animal.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/Zad4Person/DiContainer.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/Zad4Person/PersonService2.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/Zad4Person/IPersonService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="16" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Zad4Person/Gender.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Zad4Person/PersonService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-561">
-          <caret line="12" column="43" selection-start-line="12" selection-start-column="43" selection-end-line="12" selection-end-column="43" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Zad3Arrays/ArraysExercise.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="686">
-          <caret line="77" column="29" selection-start-line="77" selection-start-column="29" selection-end-line="77" selection-end-column="29" />
         </state>
       </provider>
     </entry>
@@ -455,38 +477,80 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Zad5PseudoCodeAlgorithms/AlgorithmsFromPseudoCode.java">
+    <entry file="jar://C:/Program Files/Java/jdk-11.0.2/lib/src.zip!/java.base/java/lang/StringBuilder.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="6" column="3" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
+        <state relative-caret-position="139">
+          <caret line="123" selection-start-line="123" selection-end-line="123" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Zad6Interfaces/StringCustom.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="5" lean-forward="true" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
           <folding>
-            <element signature="e#114#115#0" expanded="true" />
-            <element signature="e#142#143#0" expanded="true" />
+            <element signature="e#176#177#0" expanded="true" />
+            <element signature="e#207#208#0" expanded="true" />
+            <element signature="e#137#138#0" expanded="true" />
+            <element signature="e#161#162#0" expanded="true" />
+            <element signature="e#310#311#0" expanded="true" />
+            <element signature="e#358#359#0" expanded="true" />
+            <element signature="e#421#422#0" expanded="true" />
+            <element signature="e#481#482#0" expanded="true" />
+            <element signature="e#1410#1411#0" expanded="true" />
+            <element signature="e#1435#1436#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Program.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Zad4Person/PersonService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="56" column="98" selection-start-line="56" selection-start-column="98" selection-end-line="56" selection-end-column="98" />
+        <state relative-caret-position="1054">
+          <caret line="62" lean-forward="true" selection-start-line="62" selection-end-line="62" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Zad6Interfaces/StringCustom.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Zad4Person/IPersonService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="26" column="9" lean-forward="true" selection-start-line="26" selection-start-column="9" selection-end-line="26" selection-end-column="9" />
+        <state relative-caret-position="34">
+          <caret line="2" column="16" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Zad3Arrays/ArraysExercise.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1309">
+          <caret line="77" column="29" selection-start-line="77" selection-start-column="29" selection-end-line="77" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Zad5PseudoCodeAlgorithms/AlgorithmsFromPseudoCode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="48" column="5" lean-forward="true" selection-start-line="20" selection-start-column="4" selection-end-line="48" selection-end-column="5" />
           <folding>
-            <element signature="e#160#161#0" expanded="true" />
-            <element signature="e#184#185#0" expanded="true" />
-            <element signature="e#137#138#0" expanded="true" />
-            <element signature="e#161#162#0" expanded="true" />
-            <element signature="e#198#199#0" expanded="true" />
-            <element signature="e#222#223#0" expanded="true" />
+            <element signature="e#116#117#0" expanded="true" />
+            <element signature="e#144#145#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Zad7Arrays/ArrayTasks.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="20" lean-forward="true" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Program.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="74" column="50" selection-start-line="74" selection-start-column="50" selection-end-line="74" selection-end-column="50" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

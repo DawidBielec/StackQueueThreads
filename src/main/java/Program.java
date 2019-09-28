@@ -3,6 +3,11 @@ import Zad2Loops.Loops;
 import Zad3Arrays.ArraysExercise;
 import Zad4Person.*;
 import Zad5PseudoCodeAlgorithms.AlgorithmsFromPseudoCode;
+import Zad6Interfaces.StringCustom;
+//import Zad7Arrays.ArrayTasks;
+
+import javax.sound.midi.Soundbank;
+import java.sql.SQLOutput;
 
 public class Program {
     public static void main(String[] args){
@@ -55,5 +60,18 @@ public class Program {
 
         System.out.println("Is 31 prime number: " + AlgorithmsFromPseudoCode.isPrimeNumber(17));
         System.out.println("Is 100 prime number: " + AlgorithmsFromPseudoCode.isPrimeNumber(100));
+
+        // StringCustom - interfejsy i ich implementacje
+        StringCustom sc1 = new StringCustom("alA mA kOta");
+        StringCustom sc2 = new StringCustom("atoK aM ala");
+        int areEqual = sc1.compareTo(sc2);
+        System.out.println(areEqual);
+        System.out.println(sc1.toString());
+        System.out.println(sc2.toString());
+        System.out.println(sc1.subSequence(5,11));
+        System.out.println(sc1.charAt(0));
+
+        // Array tasks - collections
+        //System.out.println(ArrayTasks.fibonacci(10));
     }
 }
