@@ -12,6 +12,7 @@ import Zad9Trees.Node;
 
 import javax.sound.midi.Soundbank;
 import java.sql.SQLOutput;
+import java.util.Arrays;
 
 public class Program {
     public static void main(String[] args){
@@ -59,9 +60,7 @@ public class Program {
         System.out.println("Factorial 5!: " + AlgorithmsFromPseudoCode.factorialRecursive(5));
 
         AlgorithmsFromPseudoCode.fibonacci(10);
-        AlgorithmsFromPseudoCode.fibonacciNthRecursive(10);
-        System.out.println(AlgorithmsFromPseudoCode.fibonacciRecursive(10));
-        System.out.println();
+        System.out.println(Arrays.toString(AlgorithmsFromPseudoCode.fibonacciRecursive(10)));
 
         System.out.println("Is sum of two numbers dividable by 3: a = 1, b = 5: " + AlgorithmsFromPseudoCode.isSumDividableBy3(1,5));
         System.out.println("Is sum of two numbers dividable by 3: a = 2, b = 3: " + AlgorithmsFromPseudoCode.isSumDividableBy3(2,3));

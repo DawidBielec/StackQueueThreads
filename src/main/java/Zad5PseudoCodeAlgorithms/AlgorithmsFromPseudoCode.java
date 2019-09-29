@@ -40,13 +40,13 @@ public class AlgorithmsFromPseudoCode {
     }
 
     /**
-     * Method returns fibonacci sequence for a nmber
+     * Uses iterative method to return 'n' first Fibonacci sequence numbers
      * Time complexity: O(n)
      * Memory / space complexity: O(1)
      * @param n number of sequence elements
      */
     public static void fibonacci(int n){
-        System.out.print("Fibonacci for number " + n + ": "); // O(1)
+        System.out.print("Fibonacci for number " + n + " (iterative version): "); // O(1)
         int n1 = 0; // O(1)
         int n2 = 1; // O(1)
 
@@ -64,7 +64,7 @@ public class AlgorithmsFromPseudoCode {
 
         int n3 = 0; // O(1)
 
-        for (int i = 2; i <= n; i++){ // O(n)
+        for (int i = 2; i < n; i++){ // O(n)
             n3 = n1 + n2; // O(1)
             System.out.print(n3 + " "); // O(1)
 
@@ -75,22 +75,32 @@ public class AlgorithmsFromPseudoCode {
         System.out.println(); // O(1)
     }
 
+    /**
+     * Uses resursive algorithm to fill array with 'n' first Fibonacci sequence numbers.
+     * @param n Number of sequence elements to return.
+     * @return Array of first n numbers from Fibonacci sequence.
+     */
     public static long[] fibonacciRecursive(int n){
         long[] arr = new long[n];
-        for (int i = 0; i <= n; i++){
-            arr[i] = fibonacciNthRecursive(n);
+        for (int i = 0; i < n; i++){
+            arr[i] = fibonacciNthRecursive(i);
         }
 
+        System.out.print("Fibonacci for number " + n + " (recursive version): ");
         return arr;
     }
 
-    public static int fibonacciNthRecursive(int n) {
+    /**
+     * Algorithm for returning number from Fibonacci sequence on Nth place.
+     * @param n Index of Fibonacci sequence for which we want to get value.
+     * @return Number of Fibonacci sequence on Nth place.
+     */
+    private static long fibonacciNthRecursive(int n) {
         if (n == 0){
             return 0;
         }else if (n == 1 || n == 2){
             return 1;
         }
-        System.out.print(n + " ");
 
         return fibonacciNthRecursive(n - 1) + fibonacciNthRecursive(n - 2);
     }
