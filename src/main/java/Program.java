@@ -5,8 +5,10 @@ import Zad4Person.*;
 import Zad5PseudoCodeAlgorithms.AlgorithmsFromPseudoCode;
 import Zad6Interfaces.StringCustom;
 import Zad7Arrays.ArrayTasks;
+import Zad8Stack_and_Queue.Queue;
 import Zad8Stack_and_Queue.Stack;
 import Zad8Stack_and_Queue.StackArray;
+import Zad9Trees.Node;
 
 import javax.sound.midi.Soundbank;
 import java.sql.SQLOutput;
@@ -54,8 +56,12 @@ public class Program {
         System.out.println(AlgorithmsFromPseudoCode.sum(Integer.MAX_VALUE, Integer.MAX_VALUE));
 
         System.out.println("Factorial 5!: " + AlgorithmsFromPseudoCode.factorial(5));
+        System.out.println("Factorial 5!: " + AlgorithmsFromPseudoCode.factorialRecursive(5));
 
-        AlgorithmsFromPseudoCode.fibonacci(2);
+        AlgorithmsFromPseudoCode.fibonacci(10);
+        AlgorithmsFromPseudoCode.fibonacciNthRecursive(10);
+        System.out.println(AlgorithmsFromPseudoCode.fibonacciRecursive(10));
+        System.out.println();
 
         System.out.println("Is sum of two numbers dividable by 3: a = 1, b = 5: " + AlgorithmsFromPseudoCode.isSumDividableBy3(1,5));
         System.out.println("Is sum of two numbers dividable by 3: a = 2, b = 3: " + AlgorithmsFromPseudoCode.isSumDividableBy3(2,3));
@@ -90,9 +96,13 @@ public class Program {
         // Stack & Queue
         System.out.println("---STACK---");
         Stack<Osoba> stck = new Stack<Osoba>();
-        stck.push(new Osoba("Joanna", 23, Gender.Woman));
-        stck.push(new Osoba("Marek", 35, Gender.Man));
-        stck.push(new Osoba("Krzysztof", 33, Gender.Man));
+        Osoba osb1 = new Osoba("Joanna", 23, Gender.Woman);
+        Osoba osb2 = new Osoba("Marek", 35, Gender.Man);
+        Osoba osb3 = new Osoba("Krzysztof", 33, Gender.Man);
+
+        stck.push(osb1);
+        stck.push(osb2);
+        stck.push(osb3);
 
         System.out.println("Last element when peek: " + stck.peek());
         System.out.println("Last element when peek again: " + stck.peek());
@@ -101,24 +111,32 @@ public class Program {
 
         System.out.println("---STACK array---");
         StackArray<Osoba> stck2 = new StackArray<Osoba>();
-        stck2.push(new Osoba("Joanna", 23, Gender.Woman));
-        stck2.push(new Osoba("Marek", 35, Gender.Man));
-        stck2.push(new Osoba("Krzysztof", 33, Gender.Man));
+        stck2.push(osb1);
+        stck2.push(osb2);
+        stck2.push(osb3);
 
         System.out.println("Last element when peek: " + stck2.peek());
         System.out.println("Last element when peek again: " + stck2.peek());
         System.out.println("Calling pop: " + stck2.pop());
         System.out.println("Last element after pop: " + stck2.peek());
 
-        StackArray<Integer> stck3 = new StackArray<Integer>();
-        stck3.push(3);
-        stck3.push(8);
-        stck3.push(5);
+        System.out.println("---QUEUE---");
+        Queue<Osoba> queue = new Queue<Osoba>();
+        queue.push(osb1);
+        queue.push(osb2);
+        queue.push(osb3);
 
-        System.out.println("Last element when peek: " + stck3.peek());
-        System.out.println("Last element when peek again: " + stck3.peek());
-        System.out.println("Calling pop: " + stck3.pop());
-        System.out.println("Last element after pop: " + stck3.peek());
+        System.out.println(queue.toString());
+        System.out.println("First element when peek: " + queue.peek());
+        System.out.println("First element when peek again: " + queue.peek());
+        System.out.println("Calling pop: " + queue.pop());
+        System.out.println("First element after pop: " + queue.peek());
+        System.out.println(queue.toString());
 
+        // -- TREES --
+        // Node binaryTree = new Node(7);
+        // binaryTree.insert(binaryTree, 3);
+        // binaryTree.insert(binaryTree,14);
+        // binaryTree.insert(binaryTree,5);
     }
 }

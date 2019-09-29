@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- *  More efficient than {@link Zad8Stack_and_Queue.StackArray}
+ * More efficient than {@link Zad8Stack_and_Queue.StackArray}
  * @param <T> Type of stack.
  */
 public class Stack<T> {

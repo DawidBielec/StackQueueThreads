@@ -29,6 +29,16 @@ public class AlgorithmsFromPseudoCode {
         return result;
     }
 
+    public static int factorialRecursive(int n){
+        int result = 1; // O(1)
+        if (n < 2){ // O(1)
+            return result;
+        }
+
+        result = factorialRecursive(n-1) * n;
+        return result;
+    }
+
     /**
      * Method returns fibonacci sequence for a nmber
      * Time complexity: O(n)
@@ -63,6 +73,26 @@ public class AlgorithmsFromPseudoCode {
         }
 
         System.out.println(); // O(1)
+    }
+
+    public static long[] fibonacciRecursive(int n){
+        long[] arr = new long[n];
+        for (int i = 0; i <= n; i++){
+            arr[i] = fibonacciNthRecursive(n);
+        }
+
+        return arr;
+    }
+
+    public static int fibonacciNthRecursive(int n) {
+        if (n == 0){
+            return 0;
+        }else if (n == 1 || n == 2){
+            return 1;
+        }
+        System.out.print(n + " ");
+
+        return fibonacciNthRecursive(n - 1) + fibonacciNthRecursive(n - 2);
     }
 
     public static boolean isSumDividableBy3(int a, int b){
