@@ -6,6 +6,7 @@ import Zad5PseudoCodeAlgorithms.AlgorithmsFromPseudoCode;
 import Zad6Interfaces.StringCustom;
 import Zad7Arrays.ArrayTasks;
 import Zad8Stack_and_Queue.Stack;
+import Zad8Stack_and_Queue.StackArray;
 
 import javax.sound.midi.Soundbank;
 import java.sql.SQLOutput;
@@ -97,5 +98,27 @@ public class Program {
         System.out.println("Last element when peek again: " + stck.peek());
         System.out.println("Calling pop: " + stck.pop());
         System.out.println("Last element after pop: " + stck.peek());
+
+        System.out.println("---STACK array---");
+        StackArray<Osoba> stck2 = new StackArray<Osoba>();
+        stck2.push(new Osoba("Joanna", 23, Gender.Woman));
+        stck2.push(new Osoba("Marek", 35, Gender.Man));
+        stck2.push(new Osoba("Krzysztof", 33, Gender.Man));
+
+        System.out.println("Last element when peek: " + stck2.peek());
+        System.out.println("Last element when peek again: " + stck2.peek());
+        System.out.println("Calling pop: " + stck2.pop());
+        System.out.println("Last element after pop: " + stck2.peek());
+
+        StackArray<Integer> stck3 = new StackArray<Integer>();
+        stck3.push(3);
+        stck3.push(8);
+        stck3.push(5);
+
+        System.out.println("Last element when peek: " + stck3.peek());
+        System.out.println("Last element when peek again: " + stck3.peek());
+        System.out.println("Calling pop: " + stck3.pop());
+        System.out.println("Last element after pop: " + stck3.peek());
+
     }
 }
