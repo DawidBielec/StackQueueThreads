@@ -35,16 +35,21 @@ public class Loops {
         }
     }
 
+    /**
+     * Time complexity: O(n^2), because nested loops
+     * Memory complexity: O(1)
+     * @param n
+     */
     public void drawX(int n){
-        for (int i = 0; i < n; i++) {
-            for (int j = 0; j < n; j++) {
-                if (i == j || i + j == n - 1) {
-                    System.out.print("* ");
+        for (int i = 0; i < n; i++) { // O(n)
+            for (int j = 0; j < n; j++) { // O(n)
+                if (i == j || i + j == n - 1) { // O(1)
+                    System.out.print("* "); // O(1)
                 } else {
-                    System.out.print(" ");
+                    System.out.print(" "); // O(1)
                 }
             }
-            System.out.println();
+            System.out.println(); // O(1)
         }
     }
 }

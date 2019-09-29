@@ -4,7 +4,8 @@ import Zad3Arrays.ArraysExercise;
 import Zad4Person.*;
 import Zad5PseudoCodeAlgorithms.AlgorithmsFromPseudoCode;
 import Zad6Interfaces.StringCustom;
-//import Zad7Arrays.ArrayTasks;
+import Zad7Arrays.ArrayTasks;
+import Zad8Stack_and_Queue.Stack;
 
 import javax.sound.midi.Soundbank;
 import java.sql.SQLOutput;
@@ -72,6 +73,29 @@ public class Program {
         System.out.println(sc1.charAt(0));
 
         // Array tasks - collections
-        //System.out.println(ArrayTasks.fibonacci(10));
+        // uncomment below code to test these methods!
+        for (long item : ArrayTasks.fibonacci(10)){
+            System.out.print(item + " ");
+        }
+
+//        int[] arr1 = ArrayTasks.readArrayFromIo();
+//        int[] arr2 = ArrayTasks.readArrayFromIo();
+//        long[] sumOfArrays = ArrayTasks.addArrays(arr1, arr2);
+//        for (long item : sumOfArrays){
+//            System.out.print(item + " ");
+//        }
+        System.out.println();
+
+        // Stack & Queue
+        System.out.println("---STACK---");
+        Stack<Osoba> stck = new Stack<Osoba>();
+        stck.push(new Osoba("Joanna", 23, Gender.Woman));
+        stck.push(new Osoba("Marek", 35, Gender.Man));
+        stck.push(new Osoba("Krzysztof", 33, Gender.Man));
+
+        System.out.println("Last element when peek: " + stck.peek());
+        System.out.println("Last element when peek again: " + stck.peek());
+        System.out.println("Calling pop: " + stck.pop());
+        System.out.println("Last element after pop: " + stck.peek());
     }
 }
