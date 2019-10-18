@@ -1,3 +1,4 @@
+import Threads.ThreadsInvoker;
 import Zad1Engine.*;
 import Zad2Loops.Loops;
 import Zad3Arrays.ArraysExercise;
@@ -8,10 +9,6 @@ import Zad7Arrays.ArrayTasks;
 import Zad8Stack_and_Queue.Queue;
 import Zad8Stack_and_Queue.Stack;
 import Zad8Stack_and_Queue.StackArray;
-import Zad9Trees.Node;
-
-import javax.sound.midi.Soundbank;
-import java.sql.SQLOutput;
 import java.util.Arrays;
 
 public class Program {
@@ -137,5 +134,10 @@ public class Program {
         // binaryTree.insert(binaryTree, 3);
         // binaryTree.insert(binaryTree,14);
         // binaryTree.insert(binaryTree,5);
+
+
+        // -- THREADS --
+        ThreadsInvoker threadsInvoker = new ThreadsInvoker();
+        threadsInvoker.InvokeWorkers(5);
     }
 }
