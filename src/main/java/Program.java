@@ -128,14 +128,7 @@ public class Program {
         System.out.println("Calling pop: " + queue.pop());
         System.out.println("First element after pop: " + queue.peek());
         System.out.println(queue.toString());
-
-        // -- TREES --
-        // Node binaryTree = new Node(7);
-        // binaryTree.insert(binaryTree, 3);
-        // binaryTree.insert(binaryTree,14);
-        // binaryTree.insert(binaryTree,5);
-
-
+        
         // -- THREADS --
         ThreadsInvoker threadsInvoker = new ThreadsInvoker();
         threadsInvoker.InvokeWorkers(5);
