@@ -142,7 +142,7 @@ public class Program {
         FileHelper fl = new FileHelper();
 
         // assign full path to file to filePath variable
-        String filePath = "C:\\Users\\ADAM-LENOVO\\Documents\\Informatyka - studia\\S1\\Rok III\\Średnia.txt";
+        String filePath = "<type_path_here>";
 
 /*
         String text = fl.ReadWholeTextFile(filePath);

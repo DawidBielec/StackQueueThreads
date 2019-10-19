@@ -59,16 +59,41 @@ public class FileHelper {
         return ReadFileTryWithResources(path);
     }
 
+    /**
+     * Displays file sizes of files in a given directory or directory being a parent to the given file.
+     * @param fileOrDirectoryPath Path to directory or file.
+     * @throws FileNotFoundException
+     */
     public void DisplayFileSizes(String fileOrDirectoryPath) throws FileNotFoundException {
         File fileOrDirectory = new File(fileOrDirectoryPath);
-        if (!fileOrDirectory.exists()){
+        if (!fileOrDirectory.exists()){  // we must check if file exists first
             throw new FileNotFoundException();
         }
 
-        File fileDirectory = fileOrDirectory.getParentFile();
-        for (File childFile : fileDirectory.listFiles()){
-            long fileSize = childFile.length();
-            System.out.println(childFile.getAbsolutePath() + "  " +  fileSize / 1024  + " kB");
+        if (fileOrDirectory.isFile()){
+            fileOrDirectory = fileOrDirectory.getParentFile();
         }
+
+        ProcessFileOrDirectory(fileOrDirectory);
+    }
+
+    private void ProcessFileOrDirectory(File fileOrDirectory){
+        if (fileOrDirectory.isDirectory()) {
+            for (File file : fileOrDirectory.listFiles()) {
+                if (file.isFile()) {
+                    ProcessFile(file);
+                } else if (file.isDirectory()) {
+                    ProcessFileOrDirectory(file);
+                }
+            }
+        }
+        else {
+            ProcessFile(fileOrDirectory);
+        }
+    }
+
+    private void ProcessFile(File file){
+        long fileSize = file.length();
+        System.out.println(file.getAbsolutePath() + "  " +  fileSize / 1024  + " kB");
     }
 }
