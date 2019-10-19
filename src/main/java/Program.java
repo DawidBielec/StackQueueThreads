@@ -1,3 +1,4 @@
+import Files.FileHelper;
 import Threads.ThreadsInvoker;
 import Zad1Engine.*;
 import Zad2Loops.Loops;
@@ -9,6 +10,10 @@ import Zad7Arrays.ArrayTasks;
 import Zad8Stack_and_Queue.Queue;
 import Zad8Stack_and_Queue.Stack;
 import Zad8Stack_and_Queue.StackArray;
+
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.io.IOException;
 import java.util.Arrays;
 
 public class Program {
@@ -131,6 +136,23 @@ public class Program {
 
         // -- THREADS --
         ThreadsInvoker threadsInvoker = new ThreadsInvoker();
-        threadsInvoker.InvokeWorkersWithCounter(4, 100000);
+        //threadsInvoker.InvokeWorkersWithCounter(4, 100000);
+
+        // -- FILES --
+        FileHelper fl = new FileHelper();
+
+        // assign full path to file to filePath variable
+        String filePath = "C:\\Users\\ADAM-LENOVO\\Documents\\Informatyka - studia\\S1\\Rok III\\Średnia.txt";
+
+/*
+        String text = fl.ReadWholeTextFile(filePath);
+        System.out.println(text);
+*/
+
+        try {
+            fl.DisplayFileSizes(filePath);
+        } catch (FileNotFoundException e) {
+            e.printStackTrace();
+        }
     }
 }
