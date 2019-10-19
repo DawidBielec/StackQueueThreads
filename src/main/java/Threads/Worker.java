@@ -18,6 +18,7 @@ public class Worker implements Runnable {
         shouldRun = false;
     }
 
+
     @Override
     public void run() {
         while(shouldRun) {

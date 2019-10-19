@@ -128,9 +128,9 @@ public class Program {
         System.out.println("Calling pop: " + queue.pop());
         System.out.println("First element after pop: " + queue.peek());
         System.out.println(queue.toString());
-        
+
         // -- THREADS --
         ThreadsInvoker threadsInvoker = new ThreadsInvoker();
-        threadsInvoker.InvokeWorkers(5);
+        threadsInvoker.InvokeWorkersWithCounter(4, 100000);
     }
 }
