@@ -1,9 +1,5 @@
 package Threads;
 
-/**
- * Worker, something to be run by a Thread. Implementing Runnable interface is a preferred way to go,
- * following the rules 'Inherit only if you want to override some behavior.' and 'Inherit less, interface more.'.
- */
 public class Worker implements Runnable {
 
     private int id;

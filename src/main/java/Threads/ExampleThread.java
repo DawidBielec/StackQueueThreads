@@ -1,9 +1,5 @@
 package Threads;
 
-/**
- * Thread, a class which is in fact already a Thread as it derives from Thread class.
- * Try to not using this approach, implementing Runnable interface is a way to go.
- */
 public class ExampleThread extends Thread {
     private int id;
     private boolean shouldRun = true;

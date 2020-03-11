@@ -1,4 +1,3 @@
-import Files.FileHelper;
 import Threads.ThreadsInvoker;
 import Zad1Engine.*;
 import Zad2Loops.Loops;
@@ -11,13 +10,11 @@ import Zad8Stack_and_Queue.Queue;
 import Zad8Stack_and_Queue.Stack;
 import Zad8Stack_and_Queue.StackArray;
 
-import java.io.File;
 import java.io.FileNotFoundException;
-import java.io.IOException;
 import java.util.Arrays;
 
 public class Program {
-    public static void main(String[] args){
+    public static void main(String[] args) {
         // Inheritance
         Engine car1 = new Car1();
         Engine car2 = new Car2();
@@ -55,7 +52,7 @@ public class Program {
         personService.displayPeopleWithSiInName();
 
         // Algorithms from pseudoCode
-        System.out.println("Sum 2 + 3: " + AlgorithmsFromPseudoCode.sum(2,3));
+        System.out.println("Sum 2 + 3: " + AlgorithmsFromPseudoCode.sum(2, 3));
         System.out.println(AlgorithmsFromPseudoCode.sum(Integer.MAX_VALUE, Integer.MAX_VALUE));
 
         System.out.println("Factorial 5!: " + AlgorithmsFromPseudoCode.factorial(5));
@@ -64,8 +61,8 @@ public class Program {
         AlgorithmsFromPseudoCode.fibonacci(10);
         System.out.println(Arrays.toString(AlgorithmsFromPseudoCode.fibonacciRecursive(10)));
 
-        System.out.println("Is sum of two numbers dividable by 3: a = 1, b = 5: " + AlgorithmsFromPseudoCode.isSumDividableBy3(1,5));
-        System.out.println("Is sum of two numbers dividable by 3: a = 2, b = 3: " + AlgorithmsFromPseudoCode.isSumDividableBy3(2,3));
+        System.out.println("Is sum of two numbers dividable by 3: a = 1, b = 5: " + AlgorithmsFromPseudoCode.isSumDividableBy3(1, 5));
+        System.out.println("Is sum of two numbers dividable by 3: a = 2, b = 3: " + AlgorithmsFromPseudoCode.isSumDividableBy3(2, 3));
 
         System.out.println("Is 31 prime number: " + AlgorithmsFromPseudoCode.isPrimeNumber(17));
         System.out.println("Is 100 prime number: " + AlgorithmsFromPseudoCode.isPrimeNumber(100));
@@ -77,12 +74,12 @@ public class Program {
         System.out.println(areEqual);
         System.out.println(sc1.toString());
         System.out.println(sc2.toString());
-        System.out.println(sc1.subSequence(5,11));
+        System.out.println(sc1.subSequence(5, 11));
         System.out.println(sc1.charAt(0));
 
         // Array tasks - collections
         // uncomment below code to test these methods!
-        for (long item : ArrayTasks.fibonacci(10)){
+        for (long item : ArrayTasks.fibonacci(10)) {
             System.out.print(item + " ");
         }
 
@@ -138,8 +135,6 @@ public class Program {
         ThreadsInvoker threadsInvoker = new ThreadsInvoker();
         //threadsInvoker.InvokeWorkersWithCounter(4, 100000);
 
-        // -- FILES --
-        FileHelper fl = new FileHelper();
 
         // assign full path to file to filePath variable
         String filePath = "<type_path_here>";
@@ -149,10 +144,5 @@ public class Program {
         System.out.println(text);
 */
 
-        try {
-            fl.DisplayFileSizes(filePath);
-        } catch (FileNotFoundException e) {
-            e.printStackTrace();
-        }
     }
 }

@@ -1,7 +1,7 @@
 package Zad5PseudoCodeAlgorithms;
 
 /***
- * Method returns fibonacci sequence for a nmber
+ * Method returns fibonacci sequence for a number
  *
  * @param n number of sequence elements
  */
