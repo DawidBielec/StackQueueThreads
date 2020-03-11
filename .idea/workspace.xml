@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a4cb6a48-ddc4-4992-8dfd-fba069602b80" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -94,6 +95,7 @@
       <workItem from="1569740696313" duration="22223000" />
       <workItem from="1569786286128" duration="957000" />
       <workItem from="1583914436588" duration="3235000" />
+      <workItem from="1583917685770" duration="276000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1583915901199</created>
@@ -151,7 +153,21 @@
       <option name="project" value="LOCAL" />
       <updated>1583917251888</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="first commit">
+      <created>1583917737896</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1583917737896</updated>
+    </task>
+    <task id="LOCAL-00010" summary="second commit">
+      <created>1583917799326</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1583917799326</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -175,27 +191,27 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
-    <MESSAGE value="first commit" />
-    <MESSAGE value="second commit" />
     <MESSAGE value="third commit" />
     <MESSAGE value="fourth commit" />
     <MESSAGE value="fifth commit" />
     <MESSAGE value="sixth commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="sixth commit" />
+    <MESSAGE value="first commit" />
+    <MESSAGE value="second commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="second commit" />
   </component>
   <component name="WindowStateProjectService">
     <state x="413" y="111" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1583914458872">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="413" y="111" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728/1366.0.1280.984@0.0.1366.728" timestamp="1583914458872" />
-    <state x="237" y="0" key="CommitChangelistDialog2" timestamp="1583917736805">
+    <state x="237" y="0" key="CommitChangelistDialog2" timestamp="1583917798299">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="237" y="0" key="CommitChangelistDialog2/0.0.1366.728/1366.0.1280.984@0.0.1366.728" timestamp="1583917736805" />
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1583917760701">
+    <state x="237" y="0" key="CommitChangelistDialog2/0.0.1366.728/1366.0.1280.984@0.0.1366.728" timestamp="1583917798299" />
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1583917807737">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728/1366.0.1280.984@0.0.1366.728" timestamp="1583917760701" />
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728/1366.0.1280.984@0.0.1366.728" timestamp="1583917807737" />
   </component>
   <component name="masterDetails">
     <states>
